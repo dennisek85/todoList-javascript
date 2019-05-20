@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+header h1 {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  margin: 20px 0px 20px 10px;
+  font-weight: 600;
+}
+header a {
+  margin: 20px 0px 20px 20px;
+}
+main h4 {
+  font-family: 'Roboto Mono', monospace;
+}
+main .list-styling {
+  background-color: #FDFF7E;
+  color: #000;
+  font-family: 'Roboto Mono', monospace;
+  width: 400px;
+}
+main .margin-control {
+  margin-top: 50px;
+}
+main .form-control {
+  width: 400px;
+}
+main .button-control {
+  margin-top: 5px;
+}
+footer {
+  color: #000;
+}
+footer p {
+  margin-left: 20px;
+  font-family: 'Oswald', sans-serif;
+}

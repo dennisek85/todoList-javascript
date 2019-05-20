@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Listat</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/libs/bootstrap-4-beta.css">
+    <!-- My own CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+	
+  </head>
+  <body>
+
+    <header>
+      <a class="fa fa-list fa-3x"></a>
+      <h1>Listat</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h4>Att göra</h4>
+            <ul class="list-group toDoList">
+
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h4>Färdigt</h4>
+            <ul class="list-group doneList">
+  
+            </ul>
+        </div>
+      </div>
+        
+            
+          
+        <div class="row">
+          <div class="col-5 margin-control mx-auto">
+            <div> 
+              <input type="text" class="form-control" id="todo-input" placeholder="Vad behöver du göra?">
+              <button id="addItem" type="button" class="btn btn-dark button-control">Lägg till</button>             
+            </div>
+          </div>      
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Listat AB</p>
+    </footer>
+
+    <!-- JavaScript libraries -->
+    <script src="/jsonflex.js"></script>
+    <script src="/js/libs/jquery-3.2.1.js"></script>
+    <script src="/js/libs/popper-1.11.0.js"></script>
+    <script src="/js/libs/bootstrap-4-beta.js"></script>
+    <!-- Application specific JavaScript -->
+    <script src="/js/class/list.class.js"></script>
+    <script src="/js/class/listitem.class.js"></script>
+    <script src="/js/class/app.class.js"></script>
+    
+    
+    
+    
+  </body>
+</html>
